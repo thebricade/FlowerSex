@@ -1,13 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Bri\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Bri\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_FlowerSex.1277671624.00" t="ExcludeRecursive" />
-    <e p="D:\Game Dev\FlowerSex\SexJam\FlowerSex" t="IncludeRecursive">
+    <e p="C:\Users\yukii\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\yukii\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_FlowerSex.-1742586229.00" t="ExcludeRecursive" />
+    <e p="D:\GJJ\SexGameJam\FlowerSex" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EasyTouch" t="Include">
+          <e p="Example" t="Include">
+            <e p="C# Example" t="Include">
+              <e p="Example for EasyButton" t="Include">
+                <e p="Bullet.cs" t="Include" />
+                <e p="ETPlayer.cs" t="Include" />
+                <e p="ManualControl.cs" t="Include" />
+              </e>
+              <e p="Examples for EasyJoystick" t="Include">
+                <e p="Example-thirdPerson_DirectEventMode" t="Include">
+                  <e p="JoystickEvent.cs" t="Include" />
+                </e>
+                <e p="Example_FirstPerson_DirectMode" t="Include">
+                  <e p="GUIFirstDirect.cs" t="Include" />
+                </e>
+                <e p="ExitButton.cs" t="Include" />
+              </e>
+              <e p="Examples for EasyTouch" t="Include">
+                <e p="Example-FreeCam" t="Include">
+                  <e p="FreeCam.cs" t="Include" />
+                  <e p="GuiCam.cs" t="Include" />
+                </e>
+                <e p="Example-ManipulationImage" t="Include">
+                  <e p="GuiPhoto.cs" t="Include" />
+                  <e p="Photo.cs" t="Include" />
+                </e>
+                <e p="Example-MultiLayer" t="Include">
+                  <e p="GuiLayer.cs" t="Include" />
+                  <e p="TouchLayer.cs" t="Include" />
+                </e>
+                <e p="Example-Multiplefingers" t="Include">
+                  <e p="GuiMultiFinger.cs" t="Include" />
+                  <e p="ObjectTouch.cs" t="Include" />
+                  <e p="ScreenTouch.cs" t="Include" />
+                  <e p="SlowRotate.cs" t="Include" />
+                </e>
+                <e p="Example-OneFinger" t="Include">
+                  <e p="DoubleTap.cs" t="Include" />
+                  <e p="Drag.cs" t="Include" />
+                  <e p="GuiOneFinger.cs" t="Include" />
+                  <e p="LongTap.cs" t="Include" />
+                  <e p="Swipe.cs" t="Include" />
+                  <e p="Tap.cs" t="Include" />
+                  <e p="TouchStart.cs" t="Include" />
+                </e>
+                <e p="Example-StartMenu" t="Include">
+                  <e p="GuiStartMenu.cs" t="Include" />
+                </e>
+                <e p="Example-TwoFinger" t="Include">
+                  <e p="GuiTwoFinger.cs" t="Include" />
+                  <e p="Pinch.cs" t="Include" />
+                  <e p="Twist.cs" t="Include" />
+                  <e p="TwoDoubleTap.cs" t="Include" />
+                  <e p="TwoDrag.cs" t="Include" />
+                  <e p="TwoLongTap.cs" t="Include" />
+                  <e p="TwoSwipe.cs" t="Include" />
+                  <e p="TwoTap.cs" t="Include" />
+                  <e p="TwoTouchStart.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="_C#-Event-Template" t="Include">
+              <e p="C_EasyButtonTemplate.cs" t="Include" />
+              <e p="C_EasyJoystickTemplate.cs" t="Include" />
+              <e p="C_EasyTouchTemplate.cs" t="Include" />
+            </e>
+            <e p="EasyButton.cs" t="Include" />
+            <e p="EasyJoystick.cs" t="Include" />
+            <e p="EasyTouch.cs" t="Include" />
+            <e p="EasyTouchInput.cs" t="Include" />
+            <e p="ECamera.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="GUIEasyButtonCallBack.cs" t="Include" />
+              <e p="GUIEasyButtonInspector.cs" t="Include" />
+              <e p="GUIEasyJoystickCallBack.cs" t="Include" />
+              <e p="GUIEasyJoystickInspector.cs" t="Include" />
+              <e p="GUIEasytouchCallBack.cs" t="Include" />
+              <e p="GUIEasyTouchInspector.cs" t="Include" />
+              <e p="GUIEasyTouchMenu.cs" t="Include" />
+              <e p="HTGUILayout.cs" t="Include" />
+            </e>
+            <e p="Finger.cs" t="Include" />
+            <e p="Gesture.cs" t="Include" />
+            <e p="MonoSingleton.cs" t="Include" />
+            <e p="MovingJoystick.cs" t="Include" />
+            <e p="VirtualScreen.cs" t="Include" />
+          </e>
+          <e p="Readme_first.txt" t="Include" />
+        </e>
+        <e p="FingersLite" t="Include">
+          <e p="ChangeLog.txt" t="Include" />
+          <e p="Demo" t="Include">
+            <e p="DemoAsteroidScript.cs" t="Include" />
+            <e p="DemoScript.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="FingersScriptEditor.cs" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="FingersScript.cs" t="Include" />
+            <e p="Gestures" t="Include">
+              <e p="DeviceInfo.cs" t="Include" />
+              <e p="GestureRecognizer.cs" t="Include" />
+              <e p="LongPressGestureRecognizer.cs" t="Include" />
+              <e p="OneTouchRotateGestureRecognizer.cs" t="Include" />
+              <e p="OneTouchScaleGestureRecognizer.cs" t="Include" />
+              <e p="PanGestureRecognizer.cs" t="Include" />
+              <e p="RotateGestureRecognizer.cs" t="Include" />
+              <e p="ScaleGestureRecognizer.cs" t="Include" />
+              <e p="SwipeGestureRecognizer.cs" t="Include" />
+              <e p="TapGestureRecognizer.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="FingerGestures" t="Include">
+              <e p="DragRecognizerInspector.cs" t="Include" />
+              <e p="FingerDownDetectorInspector.cs" t="Include" />
+              <e p="FingerEventDetectorInspector.cs" t="Include" />
+              <e p="FingerGesturesEditorUtils.cs" t="Include" />
+              <e p="FingerGesturesInspector.cs" t="Include" />
+              <e p="FingerHoverDetectorInspector.cs" t="Include" />
+              <e p="FingerMotionDetectorInspector.cs" t="Include" />
+              <e p="FingerUpDetectorInspector.cs" t="Include" />
+              <e p="GestureRecognizerInspector.cs" t="Include" />
+              <e p="LongPressRecognizerInspector.cs" t="Include" />
+              <e p="PinchRecognizerInspector.cs" t="Include" />
+              <e p="PointCloudGestureEditor.cs" t="Include" />
+              <e p="PointCloudGestureTemplateInspector.cs" t="Include" />
+              <e p="PointCloudRecognizerInspector.cs" t="Include" />
+              <e p="SwipeRecognizerInspector.cs" t="Include" />
+              <e p="TapRecognizerInspector.cs" t="Include" />
+              <e p="TwistRecognizerInspector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FingerGestures" t="Include">
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Base" t="Include">
+                <e p="ContinuousGestureRecognizer.cs" t="Include" />
+                <e p="DiscreteGestureRecognizer.cs" t="Include" />
+                <e p="FingerEventDetector.cs" t="Include" />
+                <e p="GestureRecognizer.cs" t="Include" />
+                <e p="GestureRecognizerDelegate.cs" t="Include" />
+              </e>
+              <e p="Components" t="Include">
+                <e p="FingerClusterManager.cs" t="Include" />
+                <e p="ScreenRaycaster.cs" t="Include" />
+              </e>
+              <e p="Finger Event Detectors" t="Include">
+                <e p="FingerDownDetector.cs" t="Include" />
+                <e p="FingerHoverDetector.cs" t="Include" />
+                <e p="FingerMotionDetector.cs" t="Include" />
+                <e p="FingerUpDetector.cs" t="Include" />
+              </e>
+              <e p="FingerGestures.cs" t="Include" />
+              <e p="Gesture Recognizers" t="Include">
+                <e p="DragRecognizer.cs" t="Include" />
+                <e p="LongPressRecognizer.cs" t="Include" />
+                <e p="PinchRecognizer.cs" t="Include" />
+                <e p="PointCloudGestureTemplate.cs" t="Include" />
+                <e p="PointCloudRegognizer.cs" t="Include" />
+                <e p="SwipeRecognizer.cs" t="Include" />
+                <e p="TapRecognizer.cs" t="Include" />
+                <e p="TwistRecognizer.cs" t="Include" />
+              </e>
+              <e p="Input Providers" t="Include">
+                <e p="FGInputProvider.cs" t="Include" />
+                <e p="FGMouseInputProvider.cs" t="Include" />
+                <e p="FGTouchInputProvider.cs" t="Include" />
+              </e>
+              <e p="Toolbox" t="Include">
+                <e p="Camera" t="Include">
+                  <e p="TBDragView.cs" t="Include" />
+                  <e p="TBLookAtTap.cs" t="Include" />
+                  <e p="TBOrbit.cs" t="Include" />
+                  <e p="TBPan.cs" t="Include" />
+                  <e p="TBPinchZoom.cs" t="Include" />
+                </e>
+                <e p="TBDragToMove.cs" t="Include" />
+                <e p="TBHoverChangeMaterial.cs" t="Include" />
+                <e p="TBHoverChangeScale.cs" t="Include" />
+                <e p="TBPinchToScale.cs" t="Include" />
+                <e p="TBQuickSetup.cs" t="Include" />
+                <e p="TBTwistToRotate.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
-          <e p="GameManager.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
+          <e p="Util" t="Include">
+            <e p="BehaviorTree.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="FlowerSex.sln" t="IncludeFlat" />
