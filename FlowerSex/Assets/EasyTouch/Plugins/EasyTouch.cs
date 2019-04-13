@@ -400,7 +400,7 @@ public class EasyTouch : MonoBehaviour {
 	public LayerMask pickableLayers;		// Layer detectable by default
 	
 	public float StationnaryTolerance=25f;	// 
-	public float longTapTime = 5f;			// The time required for the detection of a long tap.
+	public float longTapTime = 1f;			// The time required for the detection of a long tap.
 	public float swipeTolerance= 0.85f;		// Determines the accuracy of detecting a drag movement 0 => no precision 1=> high precision.
 	public float minPinchLength=0f;			// The minimum length for a pinch detection.
 	public float minTwistAngle =1f;			// The minimum angle for a twist detection.
