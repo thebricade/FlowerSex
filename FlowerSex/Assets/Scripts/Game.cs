@@ -114,7 +114,7 @@ public class Game : MonoBehaviour
 
     void On_SimpleTap(Gesture gesture)
     {
-        Debug.Log("longgesture");
+        Debug.Log("simpletap");
     }
 
     void On_Swipe(Gesture gesture)
@@ -129,6 +129,6 @@ public class Game : MonoBehaviour
 
     void On_LongTap(Gesture gesture)
     {
-        Debug.Log("tap");
+        Debug.Log("longtap");
     }
 }
