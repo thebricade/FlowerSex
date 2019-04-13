@@ -92,7 +92,7 @@ public class Game : MonoBehaviour
     
     void OnEnable(){
         EasyTouch.On_LongTap += On_LongTap;
-        EasyTouch.On_Drag += On_Drag;
+        EasyTouch.On_Swipe2Fingers += On_Swipe2Fingers;
         EasyTouch.On_Swipe += On_Swipe;
         EasyTouch.On_SimpleTap += On_SimpleTap;
     }
@@ -107,7 +107,7 @@ public class Game : MonoBehaviour
 	
     void UnsubscribeEvent(){
         EasyTouch.On_LongTap -= On_LongTap;
-        EasyTouch.On_Drag -= On_Drag;
+        EasyTouch.On_Swipe2Fingers -= On_Swipe2Fingers;
         EasyTouch.On_Swipe -= On_Swipe;
         EasyTouch.On_SimpleTap -= On_SimpleTap;
     }
@@ -122,7 +122,7 @@ public class Game : MonoBehaviour
         Debug.Log("swipe");
     }
 
-    void On_Drag(Gesture gesture)
+    void On_Swipe2Fingers(Gesture gesture)
     {
         Debug.Log("drag");
     }
