@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\yukii\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\yukii\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_FlowerSex.-1742586229.00" t="ExcludeRecursive" />
-    <e p="D:\GJJ\SexGameJam\FlowerSex" t="IncludeRecursive">
+    <e p="C:\Users\Bri\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Bri\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_FlowerSex.1277671624.00" t="ExcludeRecursive" />
+    <e p="D:\Game Dev\FlowerSex\SexJam\FlowerSex" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
