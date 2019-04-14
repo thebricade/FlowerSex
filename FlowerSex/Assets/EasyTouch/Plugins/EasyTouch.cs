@@ -1403,7 +1403,7 @@ public class EasyTouch : MonoBehaviour {
 					
 					LayerMask mask = pickableLayers;
 						
-			        if( Physics.Raycast( ray, out hit,float.MaxValue,mask ) ){
+			        if( Physics.Raycast(ray, out hit,float.MaxValue,mask ) ){
 						finger.pickedCamera = touchCameras[i].camera;
 						finger.isGuiCamera = touchCameras[i].guiCamera;
 						finger.pickedObject = hit.collider.gameObject;

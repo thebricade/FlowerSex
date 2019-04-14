@@ -84,15 +84,18 @@ public class Game : MonoBehaviour
         }
     }
     */
-    
+
     //****************************************
     //*           Gesture Event              *
     //****************************************    
 
-    
+    public GameObject InnerEar; //226, 223, 121
+    public GameObject CenterEar; //192, 188, 136
+    public GameObject TinyEar;  //229, 219, 84
+    public GameObject BaseEar; //240,239,125
+
     void OnEnable(){
         EasyTouch.On_LongTap += On_LongTap;
-        EasyTouch.On_Swipe2Fingers += On_Swipe2Fingers;
         EasyTouch.On_Swipe += On_Swipe;
         EasyTouch.On_SimpleTap += On_SimpleTap;
     }
@@ -107,24 +110,38 @@ public class Game : MonoBehaviour
 	
     void UnsubscribeEvent(){
         EasyTouch.On_LongTap -= On_LongTap;
-        EasyTouch.On_Swipe2Fingers -= On_Swipe2Fingers;
         EasyTouch.On_Swipe -= On_Swipe;
         EasyTouch.On_SimpleTap -= On_SimpleTap;
     }
 
     void On_SimpleTap(Gesture gesture)
-    {
-        Debug.Log("simpletap");
+    {    
+        if (gesture != null)
+        {
+            Vector2 test = Camera.main.ScreenToWorldPoint(gesture.position);
+            if (Physics2D.Raycast(test, (gesture.position)).collider.tag == "InnerEar")
+            {
+                InnerEar.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.89f, 0.87f, 0.47f);
+            }
+            else if (Physics2D.Raycast(test, (gesture.position)).collider.tag == "CenterEar") {
+                CenterEar.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.75f, 0.73f, 0.53f);
+            }
+
+            else if (Physics2D.Raycast(test, (gesture.position)).collider.tag == "BaseEar")
+            {
+                BaseEar.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.90f, 0.86f, 0.33f);
+            }
+
+            else if (Physics2D.Raycast(test, (gesture.position)).collider.tag == "TinnyEar")
+            {
+                TinyEar.gameObject.GetComponent<SpriteRenderer>().color = new Color(0.94f, 0.94f, 0.49f);
+            }
+        }
     }
 
     void On_Swipe(Gesture gesture)
     {
         Debug.Log("swipe");
-    }
-
-    void On_Swipe2Fingers(Gesture gesture)
-    {
-        Debug.Log("drag");
     }
 
     void On_LongTap(Gesture gesture)
